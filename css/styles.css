@@ -1,0 +1,31 @@
+/* Fonts imported - Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:wght@400;700&display=swap');
+
+
+:root {
+    --bg-primary-color: #0a1118;
+    /* --bs-body-bg: #b13c7d; */
+    --main-font: 'Leckerli One', cursive;
+    --bs-body-font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo {
+    color: #198754;
+    font-family: var(--main-font);
+    font-size: 2.2rem;
+}
+
+.link-design {
+    font-size: 1.2rem;
+}
+
+.link-design:hover {
+    color: #198754;
+}
+
+.home-img-control {
+    max-width: 90vw;
+    margin: 0 auto;
+}
