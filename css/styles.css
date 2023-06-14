@@ -8,7 +8,9 @@
     /* --bs-body-bg: #b13c7d; */
     --main-font: 'Leckerli One', cursive;
     --bs-body-font-family: 'Montserrat', sans-serif;
-
+    --bs-primary-text-emphasis: #ffffff;
+    --bs-primary-bg-subtle: #1e985f;
+    --bs-accordion-btn-focus-border-color: #1e985f;
 }
 
 .logo {
@@ -23,9 +25,4 @@
 
 .link-design:hover {
     color: #198754;
-}
-
-.home-img-control {
-    max-width: 90vw;
-    margin: 0 auto;
 }
