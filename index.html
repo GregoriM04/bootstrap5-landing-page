@@ -28,7 +28,7 @@
             <div class="navbar-nav ms-auto">
               <a class="nav-link link-design fw-bold active" aria-current="page" href="#home">Home</a>
               <a class="nav-link link-design fw-bold" href="#about">About</a>
-              <a class="nav-link link-design fw-bold" href="#">Products</a>
+              <a class="nav-link link-design fw-bold" href="#products">Products</a>
               <a class="nav-link link-design fw-bold" href="#">Contact</a>
             </div>
           </div>
@@ -145,6 +145,145 @@
     </section>
 
     <!-- Products -->
+    <section id="products" class="bg-body-secondary py-5">
+       <div class="container-md">
+        <div class="text-center">
+            <h2 class="display-4">Our products</h2>
+            <p class="lead text-muted">Take a moment to check what best fits you.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 py-5 mx-auto">
+            <div class="col">
+                 <div class="card h-100 mx-auto" style="width: 20rem;">
+                    <img src="./images/E-thumbnail-1.png" class="card-img-top" alt="Img product 1">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Face lotion</h5>
+                        <p class="card-text">Some quick description about this product.</p>
+                        <div class="d-grid d-md-flex justify-content justify-content-md-center">
+                            <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-1">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 mx-auto" style="width: 20rem;">
+                   <img src="./images/E-thumbnail-2.png" class="card-img-top" alt="Img product 2">
+                   <div class="card-body">
+                        <h5 class="card-title fw-bold">Body lotion</h5>
+                        <p class="card-text">Some quick description about this product.</p>
+                        <div class="d-grid d-md-flex justify-content-md-center">
+                            <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-2">Learn more</a>
+                        </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col">
+            <div class="card h-100 mx-auto" style="width: 20rem;">
+               <img src="./images/E-thumbnail-3.png" class="card-img-top" alt="Img product 3">
+               <div class="card-body">
+                    <h5 class="card-title fw-bold">Moisturizing shampoo</h5>
+                    <p class="card-text">Some quick description about this product.</p>
+                    <div class="d-grid d-md-flex justify-content-md-center">
+                        <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-3">Learn more</a>
+                    </div>
+               </div>
+           </div>
+       </div>
+       <div class="col">
+        <div class="card h-100 mx-auto" style="width: 20rem;">
+           <img src="./images/E-thumbnail-4.png" class="card-img-top" alt="Img product 4">
+           <div class="card-body">
+                <h5 class="card-title fw-bold">Solar protector</h5>
+                <p class="card-text">Some quick description about this product.</p>
+                <div class="d-grid d-md-flex justify-content-md-center">
+                    <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-4">Learn more</a>
+                </div>
+           </div>
+         </div>
+        </div>
+        </div>
+       </div>
+       <!-- Modals -->
+       <!-- product-1 modal -->
+       <div class="modal fade" id="pro-description-1" tabindex="-1" aria-labelledby="pro-description-1-Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bold" id="pro-description-1-Label">Face lotion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/E-modal-1.png" alt="Modal image 1" class="img-fluid">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Add to the cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- product-2 modal -->
+      <div class="modal fade" id="pro-description-2" tabindex="-1" aria-labelledby="pro-description-2-Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bold" id="pro-description-2-Label">Body lotion</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/E-modal-2.png" alt="Modal image 2" class="img-fluid">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Add to the cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- product-3 modal -->
+      <div class="modal fade" id="pro-description-3" tabindex="-1" aria-labelledby="pro-description-3-Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bold" id="pro-description-3-Label">Moisturizing shampoo</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/E-modal-3.png" alt="Modal image 3" class="img-fluid">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Add to the cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- product-4 modal -->
+      <div class="modal fade" id="pro-description-4" tabindex="-1" aria-labelledby="pro-description-4-Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bold" id="pro-description-4-Label">Solar protector</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/E-modal-4.png" alt="Modal image 4" class="img-fluid">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Add to the cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact -->
 
 
