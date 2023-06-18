@@ -1,483 +1,544 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap stylesheet -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Bootstrap stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <!-- Custome Css -->
-    <link rel="stylesheet" href="/css/styles.css">
+  <!-- Custome Css -->
+  <link rel="stylesheet" href="/css/styles.css">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
 
-    <title>Essence</title>
+  <title>Essence</title>
 </head>
+
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand logo" href="#">Essence</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link link-design fw-bold active" aria-current="page" href="#home">Home</a>
-              <a class="nav-link link-design fw-bold" href="#about">About</a>
-              <a class="nav-link link-design fw-bold" href="#products">Products</a>
-              <a class="nav-link link-design fw-bold" href="#team">Team</a>
-              <a class="nav-link link-design fw-bold" href="#contact">Contact</a>
-            </div>
-          </div>
-        </div>
-    </nav>
-
-    <!-- Home -->
-    <section id="home" class="">
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="7000"> 
-                <img src="./images/carousel-1.png" class="d-block w-100 home-img-control" alt="...">
-                <div class="carousel-caption d-none d-md-block mb-5">
-                    <h5 class="display-5">First slide label</h5>
-                    <p class="lead">Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img src="./images/carousel-2.png" class="d-block w-100 home-img-control" alt="...">
-                <div class="carousel-caption d-none d-md-block mb-5">
-                    <h5 class="display-5">Second slide label</h5>
-                    <p class="lead">Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./images/carousel-3.png" class="d-block w-100 home-img-control" alt="...">
-                <div class="carousel-caption d-none d-md-block mb-5">
-                    <h5 class="display-5">Third slide label</h5>
-                    <p class="lead">Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>
-
-    <!-- About -->
-    <section id="about" class="bg-body-tertiary py-5">
-      <div class="container-md">
-        <div class="text-center">
-            <h2 class="display-4">About <Span>Essence</Span></h2>
-            <p class="lead text-muted">A quick glance at the topics you'll see</p>
-        </div>
-        <div class="row my-5 g-5 justify-content-around align-items-center">
-            <div class="col-7 col-lg-5">
-                <img src="./images/products.png" alt="kindle" class="img-fluid img-produts">
-            </div>
-            <!-- accordion -->
-            <div class="col-lg-6">
-                <div class="accordion" id="chapters">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-1">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
-                                Chapter 1 - Our story
-                            </button>
-                        </h2>
-                        <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
-                            <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fuga deleniti assumenda, harum optio beatae nemo nihil sit voluptatem incidunt hic amet earum voluptas qui est similique veniam labore nulla?</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quaerat? Nobis vitae ipsum, at unde ut laborum nisi, porro ab corrupti iure nesciunt, expedita vero distinctio perspiciatis assumenda error ea nihil fuga odit dicta tempora sequi quam. Debitis beatae earum laborum in est laudantium at doloribus, vitae veniam reiciendis! Incidunt.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam a adipisci repudiandae voluptatum repellat libero impedit. Reiciendis, ea cum ad facere placeat, beatae corporis omnis dolor ullam velit quae aspernatur in! Deleniti, ad. Magni minus odit minima commodi consequuntur nobis possimus, esse tempora aliquam laborum. Deserunt incidunt, modi officiis doloribus obcaecati sed excepturi, quod eligendi aspernatur accusantium vero voluptas aliquid quidem pariatur. Dolor, quisquam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-2">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
-                                Chapter 2 - What do we do?
-                            </button>
-                        </h2>
-                        <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
-                            <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fuga deleniti assumenda, harum optio beatae nemo nihil sit voluptatem incidunt hic amet earum voluptas qui est similique veniam labore nulla?</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quaerat? Nobis vitae ipsum, at unde ut laborum nisi, porro ab corrupti iure nesciunt, expedita vero distinctio perspiciatis assumenda error ea nihil fuga odit dicta tempora sequi quam. Debitis beatae earum laborum in est laudantium at doloribus, vitae veniam reiciendis! Incidunt.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-3">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-3">
-                                Chapter 3 - Why is it important?
-                            </button>
-                        </h2>
-                        <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
-                            <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fuga deleniti assumenda, harum optio beatae nemo nihil sit voluptatem incidunt hic amet earum voluptas qui est similique veniam labore nulla?</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quaerat? Nobis vitae ipsum, at unde ut laborum nisi, porro ab corrupti iure nesciunt, expedita vero distinctio perspiciatis assumenda error ea nihil fuga odit dicta tempora sequi quam. Debitis beatae earum laborum in est laudantium at doloribus, vitae veniam reiciendis! Incidunt.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading-4">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
-                                Chapter 4 - What about the future?
-                            </button>
-                        </h2>
-                        <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
-                            <div class="accordion-body">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse commodi animi ex vitae quisquam? Rerum vitae dolorum ratione ducimus cumque tempora maiores quidem accusantium assumenda? Suscipit minus neque accusamus inventore. Magni commodi distinctio deserunt dolores, porro molestias saepe quae vero, error officia ex eaque adipisci, neque explicabo voluptate aut exercitationem ratione illo accusantium? Assumenda porro quae, labore deserunt dolor praesentium.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand logo" href="#">Essence</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link link-design fw-bold active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link link-design fw-bold" href="#about">About</a>
+          <a class="nav-link link-design fw-bold" href="#products">Products</a>
+          <a class="nav-link link-design fw-bold" href="#team">Team</a>
+          <a class="nav-link link-design fw-bold" href="#contact">Contact</a>
         </div>
       </div>
-    </section>
+    </div>
+  </nav>
 
-    <!-- Products -->
-    <section id="products" class="bg-body-secondary py-5">
-       <div class="container-md">
-        <div class="text-center">
-            <h2 class="display-4">Our products</h2>
-            <p class="lead text-muted">Take a moment to check what best fits you.</p>
+  <!-- HOME -->
+  <section id="home" class="">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="7000">
+          <img src="./images/carousel-1.png" class="d-block w-100 home-img-control" alt="...">
+          <div class="carousel-caption d-none d-md-block mb-5">
+            <h5 class="display-5">First slide label</h5>
+            <p class="lead">Some representative placeholder content for the first slide.</p>
+          </div>
         </div>
-        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 py-5 mx-auto">
-            <div class="col">
-                 <div class="card h-100 mx-auto" style="width: 20rem;">
-                    <img src="./images/E-thumbnail-1.png" class="card-img-top" alt="Img product 1">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Face lotion</h5>
-                        <p class="card-text">Some quick description about this product.</p>
-                        <div class="d-grid d-md-flex justify-content justify-content-md-center">
-                            <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-1">Learn more</a>
-                        </div>
-                    </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="./images/carousel-2.png" class="d-block w-100 home-img-control" alt="...">
+          <div class="carousel-caption d-none d-md-block mb-5">
+            <h5 class="display-5">Second slide label</h5>
+            <p class="lead">Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel-3.png" class="d-block w-100 home-img-control" alt="...">
+          <div class="carousel-caption d-none d-md-block mb-5">
+            <h5 class="display-5">Third slide label</h5>
+            <p class="lead">Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="bg-body-tertiary py-5">
+    <div class="container-md">
+      <div class="text-center">
+        <h2 class="display-4">About <Span>Essence</Span></h2>
+        <p class="lead text-muted">A quick glance at the topics you'll see</p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-7 col-lg-5">
+          <img src="./images/products.png" alt="kindle" class="img-fluid img-produts">
+        </div>
+        <!-- accordion -->
+        <div class="col-lg-6">
+          <div class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                  Chapter 1 - Our story
+                </button>
+              </h2>
+              <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fuga deleniti assumenda, harum optio
+                    beatae nemo nihil sit voluptatem incidunt hic amet earum voluptas qui est similique veniam labore
+                    nulla?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quaerat? Nobis vitae ipsum, at unde
+                    ut laborum nisi, porro ab corrupti iure nesciunt, expedita vero distinctio perspiciatis assumenda
+                    error ea nihil fuga odit dicta tempora sequi quam. Debitis beatae earum laborum in est laudantium at
+                    doloribus, vitae veniam reiciendis! Incidunt.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam a adipisci repudiandae voluptatum
+                    repellat libero impedit. Reiciendis, ea cum ad facere placeat, beatae corporis omnis dolor ullam
+                    velit quae aspernatur in! Deleniti, ad. Magni minus odit minima commodi consequuntur nobis possimus,
+                    esse tempora aliquam laborum. Deserunt incidunt, modi officiis doloribus obcaecati sed excepturi,
+                    quod eligendi aspernatur accusantium vero voluptas aliquid quidem pariatur. Dolor, quisquam.</p>
                 </div>
+              </div>
             </div>
-            <div class="col">
-                <div class="card h-100 mx-auto" style="width: 20rem;">
-                   <img src="./images/E-thumbnail-2.png" class="card-img-top" alt="Img product 2">
-                   <div class="card-body">
-                        <h5 class="card-title fw-bold">Body lotion</h5>
-                        <p class="card-text">Some quick description about this product.</p>
-                        <div class="d-grid d-md-flex justify-content-md-center">
-                            <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-2">Learn more</a>
-                        </div>
-                   </div>
-               </div>
-           </div>
-           <div class="col">
-            <div class="card h-100 mx-auto" style="width: 20rem;">
-               <img src="./images/E-thumbnail-3.png" class="card-img-top" alt="Img product 3">
-               <div class="card-body">
-                    <h5 class="card-title fw-bold">Moisturizing shampoo</h5>
-                    <p class="card-text">Some quick description about this product.</p>
-                    <div class="d-grid d-md-flex justify-content-md-center">
-                        <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-3">Learn more</a>
-                    </div>
-               </div>
-           </div>
-       </div>
-       <div class="col">
-        <div class="card h-100 mx-auto" style="width: 20rem;">
-           <img src="./images/E-thumbnail-4.png" class="card-img-top" alt="Img product 4">
-           <div class="card-body">
-                <h5 class="card-title fw-bold">Solar protector</h5>
-                <p class="card-text">Some quick description about this product.</p>
-                <div class="d-grid d-md-flex justify-content-md-center">
-                    <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#pro-description-4">Learn more</a>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                  Chapter 2 - What do we do?
+                </button>
+              </h2>
+              <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fuga deleniti assumenda, harum optio
+                    beatae nemo nihil sit voluptatem incidunt hic amet earum voluptas qui est similique veniam labore
+                    nulla?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quaerat? Nobis vitae ipsum, at unde
+                    ut laborum nisi, porro ab corrupti iure nesciunt, expedita vero distinctio perspiciatis assumenda
+                    error ea nihil fuga odit dicta tempora sequi quam. Debitis beatae earum laborum in est laudantium at
+                    doloribus, vitae veniam reiciendis! Incidunt.</p>
                 </div>
-           </div>
-         </div>
-        </div>
-        </div>
-       </div>
-       <!-- Modals -->
-       <!-- product-1 modal -->
-       <div class="modal fade" id="pro-description-1" tabindex="-1" aria-labelledby="pro-description-1-Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5 fw-bold" id="pro-description-1-Label">Face lotion</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
             </div>
-            <div class="modal-body">
-              <img src="./images/E-modal-1.png" alt="Modal image 1" class="img-fluid">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-3">
+                  Chapter 3 - Why is it important?
+                </button>
+              </h2>
+              <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste fuga deleniti assumenda, harum optio
+                    beatae nemo nihil sit voluptatem incidunt hic amet earum voluptas qui est similique veniam labore
+                    nulla?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quaerat? Nobis vitae ipsum, at unde
+                    ut laborum nisi, porro ab corrupti iure nesciunt, expedita vero distinctio perspiciatis assumenda
+                    error ea nihil fuga odit dicta tempora sequi quam. Debitis beatae earum laborum in est laudantium at
+                    doloribus, vitae veniam reiciendis! Incidunt.</p>
+                </div>
+              </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Add to the cart</button>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                  Chapter 4 - What about the future?
+                </button>
+              </h2>
+              <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse commodi animi ex vitae quisquam?
+                    Rerum vitae dolorum ratione ducimus cumque tempora maiores quidem accusantium assumenda? Suscipit
+                    minus neque accusamus inventore. Magni commodi distinctio deserunt dolores, porro molestias saepe
+                    quae vero, error officia ex eaque adipisci, neque explicabo voluptate aut exercitationem ratione
+                    illo accusantium? Assumenda porro quae, labore deserunt dolor praesentium.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- product-2 modal -->
-      <div class="modal fade" id="pro-description-2" tabindex="-1" aria-labelledby="pro-description-2-Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5 fw-bold" id="pro-description-2-Label">Body lotion</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <!-- PRODUCTS -->
+  <section id="products" class="bg-body-secondary py-5">
+    <div class="container-md">
+      <div class="text-center">
+        <h2 class="display-4">Our products</h2>
+        <p class="lead text-muted">Take a moment to check what best fits you.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 py-5 mx-auto">
+        <div class="col">
+          <div class="card h-100 mx-auto" style="width: 20rem;">
+            <img src="./images/E-thumbnail-1.png" class="card-img-top" alt="Img product 1">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Face lotion</h5>
+              <p class="card-text">Some quick description about this product.</p>
+              <div class="d-grid d-md-flex justify-content justify-content-md-center">
+                <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal"
+                  data-bs-target="#pro-description-1">Learn more</a>
+              </div>
             </div>
-            <div class="modal-body">
-              <img src="./images/E-modal-2.png" alt="Modal image 2" class="img-fluid">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 mx-auto" style="width: 20rem;">
+            <img src="./images/E-thumbnail-2.png" class="card-img-top" alt="Img product 2">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Body lotion</h5>
+              <p class="card-text">Some quick description about this product.</p>
+              <div class="d-grid d-md-flex justify-content-md-center">
+                <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal"
+                  data-bs-target="#pro-description-2">Learn more</a>
+              </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Add to the cart</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 mx-auto" style="width: 20rem;">
+            <img src="./images/E-thumbnail-3.png" class="card-img-top" alt="Img product 3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Moisturizing shampoo</h5>
+              <p class="card-text">Some quick description about this product.</p>
+              <div class="d-grid d-md-flex justify-content-md-center">
+                <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal"
+                  data-bs-target="#pro-description-3">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 mx-auto" style="width: 20rem;">
+            <img src="./images/E-thumbnail-4.png" class="card-img-top" alt="Img product 4">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Solar protector</h5>
+              <p class="card-text">Some quick description about this product.</p>
+              <div class="d-grid d-md-flex justify-content-md-center">
+                <a href="#" class="btn btn-success mb-3" data-bs-toggle="modal"
+                  data-bs-target="#pro-description-4">Learn more</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <!-- Modals -->
+    <!-- product-1 modal -->
+    <div class="modal fade" id="pro-description-1" tabindex="-1" aria-labelledby="pro-description-1-Label"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="pro-description-1-Label">Face lotion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./images/E-modal-1.png" alt="Modal image 1" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus
+              tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit
+              autem quod.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Add to the cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <!-- product-3 modal -->
-      <div class="modal fade" id="pro-description-3" tabindex="-1" aria-labelledby="pro-description-3-Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5 fw-bold" id="pro-description-3-Label">Moisturizing shampoo</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- product-2 modal -->
+    <div class="modal fade" id="pro-description-2" tabindex="-1" aria-labelledby="pro-description-2-Label"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="pro-description-2-Label">Body lotion</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./images/E-modal-2.png" alt="Modal image 2" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus
+              tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit
+              autem quod.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Add to the cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- product-3 modal -->
+    <div class="modal fade" id="pro-description-3" tabindex="-1" aria-labelledby="pro-description-3-Label"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="pro-description-3-Label">Moisturizing shampoo</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./images/E-modal-3.png" alt="Modal image 3" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus
+              tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit
+              autem quod.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Add to the cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- product-4 modal -->
+    <div class="modal fade" id="pro-description-4" tabindex="-1" aria-labelledby="pro-description-4-Label"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="pro-description-4-Label">Solar protector</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./images/E-modal-4.png" alt="Modal image 4" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus
+              tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit
+              autem quod.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Add to the cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="bg-body-tertiary py-5">
+    <div class="container-md">
+      <div class="text-center">
+        <h2 class="display-4">The team</h2>
+        <p class="lead text-muted">Our team members are the best on what they do.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mt-5 g-4 mx-auto">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-1.png" alt="Team member 1"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Bernard Chaput</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Full-Stack Developer</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>Paris, France</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
             </div>
-            <div class="modal-body">
-              <img src="./images/E-modal-3.png" alt="Modal image 3" class="img-fluid">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
+          </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-2.png" alt="Team member 2"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Claudia Jonhson</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Designer Senior</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>Ohio, USD</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Add to the cart</button>
+          </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-3.png" alt="Team member 3"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Rayme Salvador</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Front-end Developer</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>Bogota, Colombia</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-4.png" alt="Team member 4"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Jonh Anderson</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Digital Marketing Manager</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>San Diego, USA</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-5.png" alt="Team member 5"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Julietta Barnes</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Community Manager</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>Florence, Italy</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-6.png" alt="Team member 6"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Francis Craig</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Front-end Developer</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>Malaga, Spain</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-7.png" alt="Team member 7"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Benjamin Sherman</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Back-end Developer</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>Sao Paolo, Brazil</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="./images/T-member-8.png" alt="Team member 8"
+            class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
+          <div class="card-body mt-3 pt-1 text-center">
+            <h5 class="card-title mb-1">Michelle Ana Guerrero</h5>
+            <p class="card-text mb-2 text-success fw-bold fst-italic">Designer Senior</p>
+            <p class="card-text location-control">
+              <ion-icon name="location" class="me-1"></ion-icon>
+              <small>Bonao, Dominican Republic</small>
+            </p>
+            <div class="pt-2">
+              <span class="tt" data-bs-placement="bottom" title="Twitter">
+                <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Github">
+                <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
+              </span>
+              <span class="tt" data-bs-placement="bottom" title="Email">
+                <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
+              </span>
             </div>
           </div>
         </div>
       </div>
+  </section>
 
-      <!-- product-4 modal -->
-      <div class="modal fade" id="pro-description-4" tabindex="-1" aria-labelledby="pro-description-4-Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5 fw-bold" id="pro-description-4-Label">Solar protector</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <img src="./images/E-modal-4.png" alt="Modal image 4" class="img-fluid">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis libero reprehenderit illum doloribus tempora a veritatis dolor, perspiciatis aliquam, cupiditate illo id ab labore harum ducimus eligendi velit autem quod.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success">Add to the cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section id="team" class="bg-body-tertiary py-5">
-      <div class="container-md">
-        <div class="text-center">
-            <h2 class="display-4">The team</h2>
-            <p class="lead text-muted">Our team members are the best on what they do.</p>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 mt-5 g-4 mx-auto">
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-1.png" alt="Team member 1" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Bernard Chaput</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Full-Stack Developer</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>Paris, France</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-2.png" alt="Team member 2" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Claudia Jonhson</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Designer Senior</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>Ohio, USD</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-3.png" alt="Team member 3" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Rayme Salvador</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Front-end Developer</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>Bogota, Colombia</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-4.png" alt="Team member 4" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Jonh Anderson</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Digital Marketing Manager</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>San Diego, USA</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-5.png" alt="Team member 5" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Julietta Barnes</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Community Manager</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>Florence, Italy</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-6.png" alt="Team member 6" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Francis Craig</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Front-end Developer</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>Malaga, Spain</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-7.png" alt="Team member 7" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Benjamin Sherman</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Back-end Developer</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>Sao Paolo, Brazil</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="./images/T-member-8.png" alt="Team member 8" class="rounded-circle mt-4 mx-auto border border-4 border-success border-opacity-75" style="width: 150px;">
-            <div class="card-body mt-3 pt-1 text-center">
-              <h5 class="card-title mb-1">Michelle Ana Guerrero</h5>
-              <p class="card-text mb-2 text-success fw-bold fst-italic">Designer Senior</p>
-              <p class="card-text location-control">
-                <ion-icon name="location" class="me-1"></ion-icon>
-                <small>Bonao, Dominican Republic</small>
-              </p>
-              <div class="pt-2">
-                <span class="tt" data-bs-placement="bottom" title="Twitter">
-                  <a href="#"><ion-icon name="logo-twitter" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Github">
-                  <a href="#"><ion-icon name="logo-github" class="s-icons"></ion-icon></a>
-                </span>
-                <span class="tt" data-bs-placement="bottom" title="Email">
-                  <a href="#"><ion-icon name="mail" class="s-icons"></ion-icon></a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>                  
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="bg-body-secondary py-5">
-      <div class="container-md">
-        <div class="text-center">
-            <h2 class="display-4">Contact us</h2>
-            <p class="lead text-muted">Let's get in touch to talk some business.</p>
+  <!-- CONTACT -->
+  <section id="contact" class="bg-body-secondary py-5">
+    <div class="container-md">
+      <div class="text-center">
+        <h2 class="display-4">Contact us</h2>
+        <p class="lead text-muted">Let's get in touch to talk some business.</p>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-6">
@@ -488,7 +549,8 @@
             </div>
             <div class="mb-3">
               <label for="Email" class="form-label fw-bold">Your email address</label>
-              <input type="email" class="form-control" placeholder="email@example.com" id="Email" aria-labelledby="email">
+              <input type="email" class="form-control" placeholder="email@example.com" id="Email"
+                aria-labelledby="email">
             </div>
             <div class="mb-3">
               <label for="subject" class="form-label fw-bold">What is your question about?</label>
@@ -508,77 +570,81 @@
           </form>
         </div>
       </div>
-    </section>
+  </section>
 
-    <!-- Scroll back to top button -->
-    <button class="btn btn-success btn-floating btn-lg rounded" type="button" id="btn-back-to-top"><ion-icon name="chevron-up-outline"></ion-icon></button>
+  <!-- Scroll back to top button -->
+  <button class="btn btn-success btn-floating btn-lg rounded border border-2 border-light border-opacity-50"
+    type="button" id="btn-back-to-top"><ion-icon name="chevron-up-outline"></ion-icon></button>
 
-    <!-- Footer -->
-    <footer class="bg-success text-white text-center text-lg-start">
-      <div class="container p-4">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase"><span class="footer-logo">Essence</span></h5>
-            <p class="pe-lg-5 mb-sm-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-              voluptatem veniam, est atque cumque eum delectus sint!
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Company</h5>
-    
-            <ul class="list-unstyled mb-0">
-              <li class="mb-1">
-                <a href="#!" class="text-white">About</a>
-              </li>
-              <li class="mb-1">
-                <a href="#!" class="text-white">Jobs</a>
-              </li>
-              <li class="mb-1">
-                <a href="#!" class="text-white">Brand</a>
-              </li>
-              <li class="mb-1">
-                <a href="#!" class="text-white">Newsletter</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Policies</h5>
-    
-            <ul class="list-unstyled">
-              <li class="mb-1">
-                <a href="#!" class="text-white">Terms</a>
-              </li>
-              <li class="mb-1">
-                <a href="#!" class="text-white">Privacy</a>
-              </li>
-              <li class="mb-1">
-                <a href="#!" class="text-white">License</a>
-              </li>
-              <li class="mb-1">
-                <a href="#!" class="text-white">Cookies settings</a>
-              </li>
-            </ul>
-          </div>
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase"><span class="footer-logo">Essence</span></h5>
+          <p class="pe-lg-5 mb-sm-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+            voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Company</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="#!" class="text-white">About</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" class="text-white">Jobs</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" class="text-white">Brand</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" class="text-white">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Policies</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-1">
+              <a href="#!" class="text-white">Terms</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" class="text-white">Privacy</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" class="text-white">License</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" class="text-white">Cookies settings</a>
+            </li>
+          </ul>
         </div>
       </div>
-    
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <a class="text-white text-decoration-none fw-bold" href="https://mdbootstrap.com/">Essence Inc.</a>
-      </div>
-    </footer>
+    </div>
 
-    <!-- Main JS file -->
-    <script src="/js/main.js"></script>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white text-decoration-none fw-bold" href="https://mdbootstrap.com/">Essence Inc.</a>
+    </div>
+  </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- Main JS file -->
+  <script src="/js/main.js"></script>
 
-    <!-- Ionicons -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
