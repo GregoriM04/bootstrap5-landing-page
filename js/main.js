@@ -23,3 +23,8 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+/* Tooltip function */
+const tooltip = document.querySelectorAll(".tt");
+tooltip.forEach(t => new bootstrap.Tooltip(t));
