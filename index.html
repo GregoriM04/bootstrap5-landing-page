@@ -490,6 +490,14 @@
               <label for="Email" class="form-label fw-bold">Your email address</label>
               <input type="email" class="form-control" placeholder="email@example.com" id="Email" aria-labelledby="email">
             </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label fw-bold">What is your question about?</label>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="info">Info query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
             <div class="mt-4 mb-3 form-floating">
               <textarea class="form-control" style="height: 140px" id="Textarea" placeholder=" "></textarea>
               <label for="Textarea" class="form-label text-muted">Your message</label>
