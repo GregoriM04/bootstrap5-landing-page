@@ -48,3 +48,10 @@
     color: #ffffff;
     margin: 0 5px;
 }
+
+.footer-logo {
+    color: #ffffff;
+    font-family: var(--main-font);
+    font-size: 2.2rem;
+    text-transform: capitalize;
+}
